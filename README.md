@@ -14,7 +14,7 @@
 ```
 ## Test
 ```bash
-> curl http://localhost:8080/books
-> curl http://localhost:8080/books/1
+> curl localhost:8080/books
+> curl localhost:8080/books/1
 > curl localhost:8080/books --include --header "Content-Type: application/json" -d "@body.json" --request "POST"
 ```
